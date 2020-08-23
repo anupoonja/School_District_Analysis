@@ -9,13 +9,20 @@ The purpose of this project is:
 
 ## Results
 
-### District Summary
+### 1. District Summary
+There is no significant difference in the district summary with and without the reading and math scores of ninth grade Thomas High School.
 
-### School Summary
+**District Summary with all the scores**
+![District Summary](AddRes/district_summary.png)
 
-### Thomas High School performance
+**District Summary without **reading and math scores of ninth grade Thomas High School**
+![District Summary](AddRes/district_summary_NaN.png)
 
-### Affect of replacing the ninth-grade scores
+### 2. School Summary
+
+### 3. Thomas High School performance
+
+### 4. Affect of replacing the ninth-grade scores
 
 #### Math and reading scores by grade
 
