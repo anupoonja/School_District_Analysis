@@ -9,7 +9,7 @@ The purpose of this project is:
 
 ## Results
 
-### 1. District Summary
+### A. District Summary
 There is no significant difference in the district summary with and without the reading and math scores of ninth grade Thomas High School.
 
 * Math Average score is 79.0 in the district summary without NaNs and 78.9 in the district summary with NaNs. There is only a difference of 0.1.
@@ -23,7 +23,7 @@ There is no significant difference in the district summary with and without the 
 
 ![District Summary](AddRes/district_summary_NaN.png)
 
-### 2. School Summary
+### B. School Summary
 
 * The school summary of Thomas High School has changed from the original report.
 * The percentage of math, reading and overall passing for Thomas High School has gone down after including NaNs for the ninth grade math and reading scores.
@@ -37,7 +37,7 @@ There is no significant difference in the district summary with and without the 
 
 ![School Summary](AddRes/school_summary_NaN.png)
 
-### 3. Thomas High School performance
+### C. Thomas High School performance
 
 * The percentage of math, reading and overall passing for Thomas High School has gone down after including NaNs for the ninth grade math and reading scores.
 * There is no significant change in the average math and reading scores.
@@ -56,31 +56,31 @@ There is no significant difference in the district summary with and without the 
 
 ![Thomas High School Summary with 10th-12th grade score](AddRes/Thomas_High_School_summary_10_12_grade.png)
 
-### 4. Affect of replacing the ninth-grade scores
+### D. Affect of replacing the ninth-grade scores
 
-#### Math and reading scores by grade
+#### 1. Math and reading scores by grade
 
 * The math and reading scores for the ninth grade Thomas High School shows **nan**, since it was replaced for all the students of ninth grade Thomas High School.
 * There is no change in the math and reading scores of the students in the grade from tenth to twelfth of Thomas High School.
 * There is no change in the math and reading scores of the students in other schools. They all remain the same.
 
-**Math score by grade of original report:**
+##### **Math score by grade of original report:**
 
 ![Math score by grade of original report](AddRes/by_grade_math_score.png)
 
-**Math score by grade of the report with NaNs for ninth grade Thomas High School:**
+##### **Math score by grade of the report with NaNs for ninth grade Thomas High School:**
 
 ![Math score by grade of the report with NaNs](AddRes/by_grade_math_score_NaNs.png)
 
-**Reading score by grade of original report:**
+##### **Reading score by grade of original report:**
 
 ![Reading score by grade of original report](AddRes/by_grade_reading_score.png)
 
-**Reading score by grade of the report with NaNs for ninth grade Thomas High School:**
+##### **Reading score by grade of the report with NaNs for ninth grade Thomas High School:**
 
 ![Reading score by grade of report with NaNs](AddRes/by_grade_reading_score_NaNs.png)
 
-#### Scores by school spending
+#### 2. Scores by school spending
 
 * There is no difference between the scores of the students based on the spending range in the reports after replacing the ninth-grade scores of Thomas High School.
 * The scores of the students decreases as the spending range per student increased.
@@ -93,7 +93,7 @@ There is no significant difference in the district summary with and without the 
 
 ![Scores by school spending with NaN](AddRes/scores_by_school_spending_NaN.png)
 
-#### Scores by school size
+#### 3. Scores by school size
 
 * There is no difference between the scores of the students based on the school size in the reports after replacing the ninth-grade scores of Thomas High School.
 * The scores of the students decreases as the size of the school increases.
@@ -106,7 +106,7 @@ There is no significant difference in the district summary with and without the 
 
 ![Scores by school size with NaN](AddRes/scores_by_school_size_NaN.png)
 
-#### Scores by school type
+#### 4. Scores by school type
 
 * There is no difference between the scores of the students based on the school type in the reports after replacing the ninth-grade scores of Thomas High School.
 * The students of *Charter School* have performed better than the students of *District School*.
